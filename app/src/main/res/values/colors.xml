@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="tabs">#28261c</color>
+    <color name="tabsText">#a2a6a3</color>
+    <color name="tabsTextSelected">#ffffff</color>
+    <color name="tabIndicator">#cf0b0b</color>
+    <color name="actionBar">#206b35</color>
+    <color name="actionBar2">#cf910b</color>
+    <color name="locationText">#e9e9e9</color>
+    <color name="weatherText">#e9e9e9</color>
+    <color name="actionBarText">#e9e9e9</color>
+    <color name="backGround">#000000</color>
+    <color name="speedTextColor">#206b35</color>
+    <color name="buttonColor">#206b35</color>
+    <color name="huText">#e9e9e9</color>
+</resources>

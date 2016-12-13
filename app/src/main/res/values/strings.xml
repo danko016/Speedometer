@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Speedometer</string>
+    <string name="tempInit">Current temperature: </string>
+    <string name="celsius">&#x2103; </string>
+    <string name="wind">Wind speed: </string>
+    <string name="kmh">km/h </string>
+    <string name="rain">Rain </string>
+    <string name="pressure">Pressure: </string>
+    <string name="hpa">hPa </string>
+    <string name="speedHint">0.0 </string>
+    <string name="hud">Hud</string>
+    <string name="exit">Exit</string>
+    <string name="tripTitle">Trip Info</string>
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LLSpeed"
+    android:layout_width="match_parent"
+    android:keepScreenOn="true"
+    android:layout_height="match_parent"
+    android:background="@color/backGround"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/RLSpeed"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/TVSpeed"
+            android:hint="0"
+            android:textColorHint="@color/tabsText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/actionBar"
+            android:textSize="110sp" />
+
+        <TextView
+            android:id="@+id/TVSpeedKmh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="50dp"
+            android:layout_marginStart="50dp"
+            android:layout_toEndOf="@id/TVSpeed"
+            android:layout_toRightOf="@id/TVSpeed"
+            android:text="@string/kmh"
+            android:textColor="@color/speedTextColor"
+            android:textSize="40sp" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3">
+
+        <Button
+            android:id="@+id/BTNHud"
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_style"
+            android:text="@string/hud"
+            android:textColor="@color/huText"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/BTNExit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@id/BTNHud"
+            android:layout_toRightOf="@id/BTNHud"
+            android:background="@drawable/button_style"
+            android:text="@string/exit"
+            android:textColor="@color/huText"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
