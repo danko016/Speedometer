@@ -22,7 +22,7 @@
             android:layout_centerVertical="true"
             android:layout_centerHorizontal="true"
             android:textColor="@color/actionBar"
-            android:textSize="110sp" />
+            android:textSize="180sp" />
 
         <TextView
             android:id="@+id/TVSpeedKmh"
@@ -35,7 +35,7 @@
             android:layout_toRightOf="@id/TVSpeed"
             android:text="@string/kmh"
             android:textColor="@color/speedTextColor"
-            android:textSize="40sp" />
+            android:textSize="20sp" />
 
 
     </RelativeLayout>

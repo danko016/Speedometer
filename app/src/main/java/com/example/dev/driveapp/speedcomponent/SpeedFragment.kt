@@ -12,9 +12,6 @@ import com.mcxiaoke.koi.ext.onClick
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.speedlayout.*
 
-
-
-
 /**
  * Created by dev on 29.11.16..
  */
@@ -45,13 +42,14 @@ class SpeedFragment : MvpFragment<SpeedView, SpeedPresenter>(), SpeedView {
         super.onViewCreated(view, savedInstanceState)
         presenter.locate(presenter.getProvider())
 
-
+        BTNExit.visibility = View.GONE
         BTNHud.onClick {
 
             LLSpeed?.systemUiVisibility = View.SYSTEM_UI_FLAG_FULLSCREEN
             activity.tlTabs.visibility = View.GONE
             RLSpeed.scaleX = -1.0f
             BTNHud.visibility = View.GONE
+            BTNExit.visibility = View.VISIBLE
             val orientation = ActivityInfo.SCREEN_ORIENTATION_REVERSE_LANDSCAPE
             activity.requestedOrientation = orientation
 

@@ -13,7 +13,7 @@
     <color name="weatherText">#e9e9e9</color>
     <color name="actionBarText">#e9e9e9</color>
     <color name="backGround">#000000</color>
-    <color name="speedTextColor">#206b35</color>
+    <color name="speedTextColor">#22f15c</color>
     <color name="buttonColor">#206b35</color>
     <color name="huText">#e9e9e9</color>
 </resources>

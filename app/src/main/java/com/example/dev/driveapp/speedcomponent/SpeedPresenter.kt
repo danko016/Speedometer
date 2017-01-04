@@ -24,8 +24,8 @@ constructor(val context: Context) : MvpBasePresenter<SpeedView>() {
         locationManager = context.getSystemService(Context.LOCATION_SERVICE) as LocationManager
         val criteria = Criteria()
         criteria.powerRequirement = Criteria.POWER_LOW // Chose your desired power consumption level.
-//        criteria.speedAccuracy=Criteria.ACCURACY_FINE
         criteria.accuracy = Criteria.ACCURACY_FINE // Choose your accuracy requirement.
+//        criteria.accuracy = Criteria.ACCURACY_HIGH
         criteria.isSpeedRequired = true // Chose if speed for first location fix is required.
         criteria.isAltitudeRequired = false // Choose if you use altitude.
         criteria.isBearingRequired = false // Choose if you use bearing.
@@ -37,7 +37,6 @@ constructor(val context: Context) : MvpBasePresenter<SpeedView>() {
     }
 
     fun locate(provider: String) {
-
 
         Log.d("tag", "locate init")
         val minTime: Long = 0
